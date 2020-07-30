@@ -79,7 +79,7 @@ hr {
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 320px;
 }
 
 @media (max-width:900px){
