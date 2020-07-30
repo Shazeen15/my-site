@@ -70,6 +70,20 @@ hr {
   font-weight: normal;
 }
 
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
 .middle-container {
   background: #cedebd;
 }
@@ -137,18 +151,6 @@ hr {
   margin: 0 auto 0 auto;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 50px;
-}
-
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  /* bottom: 300px; */
-}
 
 .btn {
   background: #99B898;
