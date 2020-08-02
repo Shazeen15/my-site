@@ -1,0 +1,24 @@
+body {
+  background: #84B7E3;
+}
+
+
+img {
+  width: 65%;
+}
+
+.title {
+  text-align: center;
+}
+
+.project-card {
+  text-align: center;
+}
+
+.card {
+  background: #8AA5ED;
+}
+
+.row {
+  padding: 5% 10%;
+}
