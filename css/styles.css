@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-  /* set up your own margin if you are setting youre own width */
-  /* width: 20%;
+  /* set up your own margin if you are setting youre own width
+  width: 20%;
   margin: 0 auto 0 auto; */
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
@@ -42,17 +42,7 @@ hr {
   clear: both;
 }
 
-/* id selectors */
-#pro {
-  text-decoration: underline;
-}
-
-#profile-picture {
-  width: 200px;
-  padding-top: 100px;
-}
-
-/* class selectors */
+/* top container */
 .top-container {
   width: 100%;
   background: #84B7E3;
@@ -63,6 +53,10 @@ hr {
 .intro-paragraph{
   margin: 10px auto 40px auto;
   width: 70%;
+}
+
+#pro {
+  text-decoration: underline;
 }
 
 .programmer {
@@ -98,20 +92,41 @@ hr {
     font-weight: normal;
   }
 }
+
+/* middle container */
 .middle-container {
   background: #8AA5ED;
 }
 
+#profile-picture {
+  width: 200px;
+  padding-top: 100px;
+}
+
+.lang {
+  display: flex;
+  padding: 5% 17%;
+}
+
+.skill-row {
+  width: 50%;
+  /* margin: 100px auto 100px auto; */
+}
+
 .html5 {
   width: 25%;
-  float: left;
-  margin: 40px;
+  /* float: left;
+  margin: 40px; */
 }
 
 .css3 {
   width: 25%;
-  float: right;
-  margin: 40px;
+  /* float: right;
+  margin: 40px; */
+}
+
+.contact-me {
+  padding-bottom: 100px;
 }
 
 .giphy-embed {
@@ -119,23 +134,7 @@ hr {
   height: 100px;
 }
 
-.contact-me {
-  padding-bottom: 100px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  /* display: inline-flex;
-  align-items: center; */
-}
-
-
-.contact-me-paragraph{
-  width: 70%;
-  margin: 0 auto 40px auto;
-}
-
+/* bottom container */
 .bottom-container {
   background: #84B7E3;
   padding-top: 40px;
