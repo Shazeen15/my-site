@@ -46,7 +46,7 @@ hr {
 .top-container {
   width: 100%;
   background: #84B7E3;
-  padding-top: 100px;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -110,19 +110,14 @@ hr {
 
 .skill-row {
   width: 50%;
-  /* margin: 100px auto 100px auto; */
 }
 
 .html5 {
   width: 25%;
-  /* float: left;
-  margin: 40px; */
 }
 
 .css3 {
   width: 25%;
-  /* float: right;
-  margin: 40px; */
 }
 
 .contact-me {
